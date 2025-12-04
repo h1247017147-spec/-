@@ -1,0 +1,61 @@
+{
+  "subscription_name": "K80Pro 游戏加速",
+  "version": "1.0",
+  "last_update": "2025-12-04T16:00:00+08:00",
+  "rules": [
+    {
+      "id": 1,
+      "appPackage": "com.tencent.KiHan",
+      "name": "火影忍者-跳过加载",
+      "matchMode": "text",
+      "matchText": "跳过",
+      "action": "click",
+      "delay": 100
+    },
+    {
+      "id": 2,
+      "appPackage": "com.tencent.jkchess",
+      "name": "金铲铲-跳过动画",
+      "matchMode": "text",
+      "matchText": "跳过",
+      "action": "click",
+      "delay": 100
+    },
+    {
+      "id": 3,
+      "appPackage": "com.tencent.dnf",
+      "name": "DNF-跳过动画",
+      "matchMode": "text",
+      "matchText": "跳过",
+      "action": "click",
+      "delay": 100
+    },
+    {
+      "id": 4,
+      "appPackage": "com.tencent.tmgp.cf",
+      "name": "CF-跳过动画",
+      "matchMode": "text",
+      "matchText": "跳过",
+      "action": "click",
+      "delay": 120
+    },
+    {
+      "id": 5,
+      "appPackage": "system",
+      "name": "系统-关闭广告 X",
+      "matchMode": "text",
+      "matchText": "×",
+      "action": "click",
+      "delay": 80
+    },
+    {
+      "id": 6,
+      "appPackage": "system",
+      "name": "系统-加速清理",
+      "matchMode": "text",
+      "matchText": "清理加速",
+      "action": "click",
+      "delay": 100
+    }
+  ]
+}

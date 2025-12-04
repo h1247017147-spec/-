@@ -1,0 +1,35 @@
+// GKD Rules for Redmi K80 Pro + Games
+// Global Ads Skip
+@[text*="跳过"], @[text="跳过广告"], @[desc*="跳过"] > perform_click
+@[text="×"], @[text="✕"], @[desc*="关闭"] > perform_click
+@[text="关闭"], @[text="取消"], @[text="我知道了"] > perform_click
+
+// Naruto Mobile (火影忍者)
+on_activity("com.tencent.Naruto.Android/com.tencent.tmgp.naruto.SplashActivity") {
+  @[text*="跳过"], @[text="关闭"], @[text="跳过动画"] > perform_click
+}
+on_activity("com.tencent.Naruto.Android/com.tencent.tmgp.naruto.MainActivity") {
+  @[text="关闭"], @[text="暂不"], @[text="以后再说"] > perform_click
+}
+
+// 金铲铲之战 (tft)
+on_activity("com.tencent.tmgp.pvz/com.tencent.tmgp.tft.SplashActivity") {
+  @[text*="跳过"], @[text="关闭"], @[text="跳过动画"] > perform_click
+}
+@[text="继续游戏"], @[text="确定"], @[text="我知道了"] > perform_click
+
+// 地下城与勇士 (DNF M)
+on_activity("com.tencent.dnfm/com.tencent.dnfm.SplashActivity") {
+  @[text*="跳过"], @[text="关闭"] > perform_click
+}
+@[text="暂不领取"], @[text="关闭"], @[text="以后再说"] > perform_click
+
+// 穿越火线 (CF)
+on_activity("com.tencent.tmgp.cf/com.tencent.tmgp.sgame.SplashActivity") {
+  @[text*="跳过"], @[text="关闭"] > perform_click
+}
+@[text="跳过动画"], @[text="关闭"], @[text="我知道了"] > perform_click
+
+// Game Boost / Redmi K80 System Panels
+@[text="清理加速"], @[text="一键加速"], @[text="深度清理"] > perform_click
+@[text="加速完成"], @[text="性能提升"], @[text="后台已清理"] > perform_click

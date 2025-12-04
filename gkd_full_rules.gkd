@@ -1,0 +1,26 @@
+// GKD Full Rules File
+@[text*="跳过"] > perform_click
+@[text^="跳"] > perform_click
+@[text="跳过广告"] > perform_click
+@[desc*="跳过"] > perform_click
+
+@[text="×"], @[text="✕"], @[text="x"], @[text="X"] > perform_click
+@[desc="关闭"], @[desc*="关闭"] > perform_click
+
+@[text="关闭"], @[text="取消"], @[text="我知道了"], @[text="知道了"] > perform_click
+@[desc="关闭"], @[desc*="取消"], @[desc*="关闭"] > perform_click
+
+@[text="允许"], @[text="始终允许"], @[text="同意"], @[text="确定"], @[text="继续"], @[text="OK"] > perform_click
+
+@[text="暂不更新"], @[text="以后再说"], @[text="取消"] > perform_click
+
+@[text*="广告"], @[text="关闭广告"], @[desc*="广告"] > perform_click
+@[text="×"], @[text="✕"] > perform_click
+
+@[text="跳过登录"], @[text="暂不登录"], @[text="以后再说"] > perform_click
+
+@[text="同意并继续"], @[text="我已知晓"], @[text="已阅读并同意"] > perform_click
+
+@[text="我知道了"], @[text="明白了"], @[text="好的"], @[text="继续"] > perform_click
+
+@[text*="跳"], @[text*="广告"], @[text="关闭"], @[text="×"], @[text="✕"], @[text="取消"], @[text="知道了"], @[text="允许"], @[text="同意"] > perform_click
